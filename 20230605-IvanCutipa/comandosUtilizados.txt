@@ -1,0 +1,75 @@
+Recopilatorio resumen
+Primero me ubico en mi carpeta de trabajo
+para eso utilizo el comando cd para ubicarme en la carpeta correspondiente
+
+luego procedo a configurar usuario y email
+Inicializo el repositorio con git init
+Creo el repositorio remoto y lo vinculo a mi repositorio local
+git remote add origin "link del repositorio remoto"
+
+Creo la carpeta con el mismo nombre del repositorio remoto
+En la rama master creo los archivos indicados
+No hice el cambio de master a main porque sobreentendí que podía usar cualquiera
+
+Luego procedo a hacer git add .
+y luego el commit 01, y luego el push al repositorio remoto
+(Lo hice después porque no entendí que se debía pushear de inmediato)
+
+Cambio de rama con el nombre indicado y me posiciono en dicha ramaCreo las carpetas con mkdir
+creo los archivos con touch
+Me cambio de carpetas con cd "NombreCarpeta" o cd .. para subir a un nivel superior
+
+De similar manera procedo a pushear lo avanzado
+
+Para la parte 3 de similar manera
+
+Para ingresar información a los archivos acceso al VSCode con el comando code
+Completo según corresponda
+
+Realizó el push y verifico en el repositorio remoto que la información este cargada
+
+Fin =)
+
+
+
+
+
+
+
+
+
+
+
+Comandos empleados (Listado history)
+ 97  cd /C/Users/Acer/Downloads/DigitalHouse/Ejercicio10
+   98  git config --global user.name "Ivan Cutipa"
+   99  git config --global user.email phdkail@gmail.com
+  100  git init
+  101  git remote add origin https://github.com/phdkail/20230605-IvanCutipa
+  102  mkdir 20230605-IvanCutipa
+  103  cd 20230605-IvanCutipa
+  104  touch comandos.txt main.js index.html
+  105  git add .
+  106  git commit -m "commit 01 de Ivan Cutipa"
+  107  git checkout -b feature01
+  108  mkdir Terminal Hardware
+  109  cd Terminal
+  110  touch resumen.txt
+  111  cd ..
+  112  cd Hardware
+  113  touch resumen.txt
+  114  cd ..
+  115  git add .
+  116  git commit -m "commit 02 de Ivan Cutipa"
+  117  git push origin feature01
+  118  git checkout master
+  119  git push origin master
+  120  git checkout feature01
+  121  git checkout -b feature02
+  122  code
+  123  git add .
+  124  git commit -m "commit 03 de Ivan Cutipa"
+  125  git push origin feature02
+  126  git checkout master
+  127  git mv comandos.txt comandosUtilizados.txt
+  128  history
