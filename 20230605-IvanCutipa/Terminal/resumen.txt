@@ -1,0 +1,11 @@
+b. Dentro del archivo Terminal/resumen.txt deberás:
+i. Listar 5 comandos aprendidos en clase
+
+1 git init: crea un nuevo repositorio
+2 pwd: Nos da la ubicación donde estamos en el momento
+3 touch: crea archivos
+4 mkdir: crea carpetas
+5 git add: Agrega cambios al staging area  
+6 git commit -m "Nombre del Commit"
+7 git push: Sube los cambios al repositorio remoto
+8 git pull: Trae la info del repositorio remoto

@@ -1,0 +1,9 @@
+c. Dentro del archivo Hardware/resumen.txt deberás:
+i. Listar 3 partes internas de la computadora.
+
+1 Placa madre (motherboard)
+2 Procesador
+3 Memoria RAM y ROM
+4 Placa de video y sonido
+5 Dispositivos de almacenamiento secundario
+6 Fuente de alimentación
